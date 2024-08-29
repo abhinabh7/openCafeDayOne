@@ -1,0 +1,11 @@
+body{
+    /* background-image: linear-gradient( to left,red,blue); */
+
+/* background-image: linear-gradient(to right, red ,blue); */
+/* background-image: linear-gradient(to right top, red,blue); */
+/* background-image: radial-gradient(red,blue,yellow); */
+background-image: url(https://cubanvr.com/wp-content/uploads/2023/07/ai-image-generators.webp),url(https://cubanvr.com/wp-content/uploads/2023/07/ai-image-generators.webp);
+background-size: contain;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}

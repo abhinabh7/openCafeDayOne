@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       const number = [1,2,3,4,5,6]
+        console.log('number:',number)
+        console.log('number length is:',number.length)
+        const arr = [
+            'abhi',
+            260,
+            true,
+            {country: 'Finland',city:"Helsinki"},
+            {skills:['HTML','css','js','react','python']}
+        ]
+        console.log(arr)
+        let js = 'javaScript';
+         const splitting = js.split('');
+         console.log(splitting)
+         
+         let comma = 'googole,facebook,gmail';
+         const splitComma = comma.split(',');
+         console.log(splitComma)
+
+         const webTec = [
+            'html',
+            'css',
+            'java',
+            'python',
+            'c++'
+         ]
+         console.log(webTec)
+         console.log(webTec.length)
+         const lastIndex = (webTec.length-1)
+         console.log(webTec[lastIndex])
+
+         const arr1 = Array();
+         console.log(arr1);
+         const emptyarr = Array(8).fill('X');
+         console.log(emptyarr)
+
+         const first = [1,2,3,4,5];
+         const second= [5,4,3,2,1]
+         const third = first.concat(second)
+         console.log(third);
+
+         const v1 = ['apple','banana','mango','cabbage'];
+         const v2 =['tomato','potato','cabbage'];
+         const v3 = v1.concat(v2);
+         console.log(v3);
+         console.log(v3.length);
+         console.log(v1.indexOf('apple'));
+         console.log(v3.lastIndexOf("cabbage"));
+         console.log(v3.indexOf('cabbage'));
+
+         console.log(v3.includes('hello'));
+         console.log(second.includes(1));
+         console.log(v3.includes('cabbage'));
+
+       console.log(Array.isArray(second));
+       console.log(Array.isArray(v3));
+
+       console.log(second.toString());  
+       const name = ['abhi','dual','yunuj'];
+       console.log(name.toString());
+       
+       console.log(second.join('#'));
+       console.log(second.join(''));
+       console.log(second.slice());
+
+       console.log(v3.slice(1,3));
+       console.log(second.splice());
+       second.splice(0,1);
+       console.log(second)
+       console.log(second.reverse())
+
+       const abc = ['a','c','b','e'];
+       console.log(abc.sort());
+
+       const countries = [
+        'albania',
+        'bolivia',
+        'canada',
+        'Denmark'
+       ]
+
+       const webTechs = [
+        'html','css','javascript','react'
+       ]
+       
+       //3
+       console.log(countries.length)
+       console.log(webTechs.length)
+       //4
+       const add = (countries.concat(webTechs));
+       console.log(add.length)
+       console.log(add[0])
+       const lastItem = add.length-1
+       console.log(add[lastItem])
+
+
+    </script>   
+</body>
+</html>

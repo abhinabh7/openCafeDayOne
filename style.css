@@ -1,0 +1,28 @@
+.first-bucket{
+    border: 5px ridge rgba(170,50,250);
+    outline: 5px solid blue;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+.second-bucket{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    overflow-x:hidden;
+
+
+}
+.list>li{
+    display: block;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    /* filter:blur(5px); */
+    /* filter: contrast(500%); */
+    filter: drop-shadow(18px 18px 18px green)
+}
